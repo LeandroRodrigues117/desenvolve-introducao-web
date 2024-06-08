@@ -1,17 +1,37 @@
 /* Color Theme Swatches in Hex */
-/*.principal { color: #E06C22; }
+/*. { color: #E06C22; }
 .My-Color-Theme-2-hex { color: #409DA1; }
 .destaque { color: #21DAE1; }
 . { color: #8B5F43; }
-.background { color: #3F6061; }*/
+.background { color: #3F6061; }
+    .principal { color: #000000;}
+*/
 
 html { 
 
-   color:#E06C22;
+   color:#000000;
 background: #3F6061;
+
+font-size: 18px;
+font-family: Arial;
 }
 
+p{
 
+    text-indent: 1em;
+}
+
+h1, h2, h3{
+    text-align: center;
+    
+}
+h1{ font-size: 1.8;}
+h2{ font-size: 1.4;}
+h3{ font-size: 1.2;}
+
+.summary { text-align: right;}
+.main p{ line-height: 1.5;}
+abbr {font-variant: small-caps;}
 
 
 
