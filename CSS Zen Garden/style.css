@@ -7,6 +7,24 @@
     .principal { color: #000000;}
 */
 
+.page-wrapper {
+    position: relative;
+}
+
+.explanation{
+    width: 60%;
+    border-right: #000000 solid 1px;
+    padding-right: 2%;
+}
+
+#design-selection {
+    position: absolute;
+    top: 560px;
+    left: 62%;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
 .main footer{
     margin: 4%;
 }
