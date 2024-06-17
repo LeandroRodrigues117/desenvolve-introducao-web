@@ -6,6 +6,30 @@
 .background { color: #3F6061; }
     .principal { color: #000000;}
 */ 
+.main p:first-of-type::first-letter{
+    font-size: 3em;
+    font-family: 'Times New Roman', Times, serif;
+    float: left;
+}
+
+.design-selection li{
+    border-top: #000000 solid 1px;
+    padding-top: 5px;
+}
+
+.design-selection li:last-of-type{
+    border-bottom:#000000 solid 1px;
+    padding-bottom: 5px;
+}
+
+a {
+    color:#21DAE1;
+}
+
+a:hover {
+    color: #b3f1f1;
+}
+
 .participation{ 
     display: flex;
     flex-wrap: wrap;
@@ -49,9 +73,9 @@
     padding-right: 2%;
 }
 
-#design-selection {
+.design-selection {
     position: absolute;
-    top: 520px;
+    top: 450px;
     left: 62%;
     padding-left: 2%;
     padding-right: 2%;
