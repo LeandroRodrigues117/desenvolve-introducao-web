@@ -6,6 +6,52 @@
 .background { color: #3F6061; }
     .principal { color: #000000;}
 */ 
+
+@media print {
+    html{
+        font-family: 'Courier New', Courier, monospace;
+    }
+
+    #zen-intro header {
+        background-color:beige;
+        color: #000000;
+    }
+    .design-selection{
+        position: static;
+        width: 100%;}
+
+.explanation {
+    border-right: none;
+    width: 100%;
+}
+
+}
+
+
+
+@media screen and(max-width: 768px){
+    .design-selection{
+        position: static;
+        width: 100%;}
+
+.explanation {
+    border-right: none;
+    width: 100%;
+}
+
+#zen-intro { 
+    height: auto;
+}
+
+.participation{
+    flex-direction: column;
+}
+
+p {
+    text-indent: 0;}
+
+}
+
 .main p:first-of-type::first-letter{
     font-size: 3em;
     font-family: 'Times New Roman', Times, serif;
